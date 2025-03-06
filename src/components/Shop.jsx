@@ -1,11 +1,7 @@
 import { DUMMY_PRODUCTS } from "../dummy-products.js";
 import Product from "./Product.jsx";
-import { CartContext } from "../store/shopping-cart-context.jsx";
-import { useContext } from "react";
 
-export default function Shop({ onAddItemToCart }) {
-  const {} = useContext(CartContext);
-
+export default function Shop() {
   return (
     <section id="shop">
       <h2>Elegant Clothing For Everyone</h2>
